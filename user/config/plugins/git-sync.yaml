@@ -1,0 +1,25 @@
+enabled: true
+folders:
+  - pages
+sync:
+  on_save: false
+  on_delete: false
+  on_media: false
+  cron_enable: false
+  cron_at: '0 12,23 * * *'
+user: iammashed
+webhook: /_git-sync-d90a32ddd247
+webhook_enabled: '1'
+webhook_secret: 1a32c99a4a3164b9cb7aa417d3c30708c3d07466773fcb10
+branch: master
+remote:
+  name: origin
+  branch: master
+git:
+  author: gituser
+  name: GitSync
+  email: git-sync@trilby.media
+  bin: /usr/bin/git
+logging: false
+repository: 'https://github.com/IamMashed/grav.git'
+password: gitsync-def502007dadb0cafddb68b3bf97d88576597c9dfec8864b004d95933a1dcb239fdc4e4f061c37c17da18e5ab9b0b23417f8640b24b1392e83669db41749feb5ee76d85be3dff00ccdb57f1d5dc5bfb4502dcfb495203bb4448971795cdada40d859

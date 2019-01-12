@@ -1,0 +1,11 @@
+email: rustamallakov@gmail.com
+fullname: 'Rustam Allakov'
+title: Administrator
+state: enabled
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$IXiQvAyTT55XwE/eZi3Fxu4dAzZvjv0WiHigNt.CKYHK6I95S7n9q
